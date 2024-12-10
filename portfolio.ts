@@ -12,77 +12,77 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Abed El Razzak Chreim",
+  title: "Hi 👋, I'm Abed El Razzak",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    "I am a Software Developer with a background major in Mechatronics and hands-on industrial experience through a four-month internship at Sibline Cement Plant, where I achieved an excellent grade. I also am a Full Stack Web Developer where I gained work experience at Way2Go Digital and Freelancing, in which I created in total 10 projects, including informative, e-commerce websites and payment gateway integrations for platforms such as Blom Bank Cybersource and Areeba. My passions include drawing, physics, and meeting new people.",
   resumeLink: "#",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "AbedElRazzak",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
+  email: "mailto:chreimabedelrazzak@gmail.com",
+  linkedin: "https://www.linkedin.com/in/abed-el-razzak-chreim-b5a33a1a3/",
+  github: "https://github.com/AbedElRazzak",
+  // instagram: "https://www.instagram.com/__hanzla100",
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',
 };
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "I WORK WITH MECHATRONIC SYSTEMS IN AN INDUSTRIAL SETTING",
   data: [
     {
-      title: "Full Stack Development",
-      lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+      title: "PLCs & HMIs",
+      lottieAnimationFile: "/lottie/skills/industrial.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Creating documentation for securing the HMI network"),
+        emoji("⚡ Setting up HMIs as reserves"),
+        emoji("⚡ Downloading, Uploading, Restoring and Downgrading *mer files"),
       ],
       softwareSkills: [
         {
-          skillName: "Python",
-          iconifyTag: "logos:python",
+          skillName: "Allen Bradley",
+          iconifyTag: "ab",
         },
         {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
+          skillName: "Haver and Boecker",
+          iconifyTag: "hb",
         },
         {
-          skillName: "JavaScript",
-          iconifyTag: "logos:javascript",
+          skillName: "Siemens",
+          iconifyTag: "siemens",
         },
         {
-          skillName: "Reactjs",
-          iconifyTag: "vscode-icons:file-type-reactjs",
+          skillName: "Beijer",
+          iconifyTag: "beijer",
         },
         {
-          skillName: "Nextjs",
-          iconifyTag: "vscode-icons:file-type-light-next",
+          skillName: "Eaton",
+          iconifyTag: "eaton",
         },
         {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
+          skillName: "Schneider",
+          iconifyTag: "schneider",
         },
-        {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
-        },
-        {
-          skillName: "Github",
-          iconifyTag: "akar-icons:github-fill",
-        },
-        {
-          skillName: "Docker",
-          iconifyTag: "logos:docker-icon",
-        },
+        // {
+        //   skillName: "Heroku",
+        //   iconifyTag: "logos:heroku-icon",
+        // },
+        // {
+        //   skillName: "Github",
+        //   iconifyTag: "akar-icons:github-fill",
+        // },
+        // {
+        //   skillName: "Docker",
+        //   iconifyTag: "logos:docker-icon",
+        // },
       ],
     },
   ],
@@ -90,86 +90,115 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
+    Stack: "Programming", //Insert stack or technology you have experience in
     progressPercentage: "85", //Insert relative proficiency in percentage
   },
   {
-    Stack: "Backend",
+    Stack: "Building Restful APIs",
     progressPercentage: "90",
   },
   {
-    Stack: "Programming",
+    Stack: "Critical Thinking",
     progressPercentage: "95",
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
+    schoolName: "Matn University College (MUC)",
+    subHeader: "Bachelor of Technology in Mechatronics",
+    duration: "2020 - 2024",
     desc: "",
-    grade: "Grade A",
+    grade: "Gpa 3.33",
     descBullets: [], // Array of Strings
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    role: "Industrial Intern, Grade: Excellent",
+    company: "Sibline Cement Plant",
+    companyLogo: "/img/icons/common/siblineLogo.png",
+    date: "Jun 2024 - Nov 2024",
+    desc: "During my internship at Sibline Cement Plant, I gained hands-on experience in cement manufacturing, studying LIBNOR standards, raw material processing, and final production. I explored key machinery like kilns, vertical mills, and ball mills while learning about automation technologies such as PLCs, SCADA, HMIs, and sensors. Additionally, I worked on securing the HMI network to address operational continuity challenges during partial or complete HMI failures.",
   },
   {
     role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
+    company: "Way2go Digital",
+    companyLogo: "/img/icons/common/way2go.png",
+    date: "Jul 2023 - Nov 2023",
+    desc: "Developed and maintained 3 web applications as part of a team of four, leveraging technologies such as ReactJS, PHP, and WordPress. Contributed to the creation of business and e-commerce websites, as well as the maintenance of existing websites. Designed and implemented RESTful APIs, ensuring seamless database communication and integration with the Blom Bank Cybersource payment gateway.",
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
   },
   {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
+    role: "Full Stack Developer Intern",
+    company: "Way2go Digital",
+    companyLogo: "/img/icons/common/way2go.png",
+    date: "Jun 2023 - Jul 2023",
+    desc: "As a Full Stack Developer Intern at Way2Go Digital, collaborated with a team of four developers on an e-commerce project, leveraging ReactJS and PHP. Designed and implemented RESTful APIs to facilitate efficient database communication and functionality.",
   },
   {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
+    role: "Full Stack Developer",
+    company: "Freelancing",
+    companyLogo: "/img/icons/common/freelance.png",
+    date: "Dec 2023 - Present",
+    desc: "As a freelancer, completed six diverse projects using WordPress, JavaScript, PHP, and CSS, including informative and e-commerce websites. Developed RESTful APIs for payment gateways like Blom Bank Cybersource and Areeba Gateway.",
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "Vresso Casa - Ecommerce ",
+    desc: "This website is an ecommerce website that displays their products with a payment gateway integrated.",
+    link: "https://vressocasa.com/",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "ICCEnergy - Business",
+    desc: "This website is a business website that displays information about the company and their services.",
+    link: "https://icc.energy/",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    name: "Premier ARC - Business",
+    desc: "This website is a business website that displays information about the company and their services.",
+    link: "https://premier-arc.com/",
   },
   {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    name: "Dentrooper 360 - Business",
+    desc: "This website is a business website that displays information about the company and their services.",
+    link: "https://dentrooper360.com/",
+  },
+  {
+    name: "Navigate Success - Business",
+    desc: "This website is a business website that displays information about the company and their services.",
+    link: "https://navigate-success.com/",
+  },
+  {
+    name: "Fleurielb - Ecommerce",
+    desc: "This website is an ecommerce website that displays their products with a payment gateway integrated.",
+    link: "https://www.fleurielb.com/",
+  },
+  {
+    name: "MUC ACE - University Informative",
+    desc: "This website is a business website that displays information about the university academy and their offers.",
+    link: "https://academy.muc.edu.lb/",
+  },
+  {
+    name: "Mega Brands - Areeba Payment Gateway",
+    desc: "This website is an ecommerce website that displays their products with a payment gateway integrated.",
+    link: "https://megabrandsoutlet.net/",
+  },
+  {
+    name: "Vitto - Blom Bank Cybersource Gateway",
+    desc: "This website is an ecommerce website that displays their products with a payment gateway integrated.",
+    link: "https://vittoonline.com/",
+  },
+  {
+    name: "Hafnutrition Ecommerce",
+    desc: "This website is an ecommerce website that displays their products.",
+    link: "https://hafnutrition.com/",
   },
 ];
 
@@ -196,18 +225,17 @@ export const feedbacks: FeedbackType[] = [
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Abed El Razzak Portfolio",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
+  author: "Abed El Razzak Chreim",
   image: "https://avatars.githubusercontent.com/u/59178380?v=4",
   url: "https://developer-portfolio-1hanzla100.vercel.app",
   keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
+    "Abed El Razzak",
+    "Abed El Razzak Chreim",
+    "AbedElRazzak",
     "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
+    "Abed El Razzak Portfolio ",
+    "Abed El Razzak Chreim Portfolio",
   ],
 };
