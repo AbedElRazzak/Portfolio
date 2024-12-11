@@ -20,8 +20,8 @@ const Navigation = () => {
       <header className="header-global">
         <Navbar className="navbar-main navbar-transparent navbar-light headroom" expand="lg" id="navbar-main">
           <Container>
-            <NavbarBrand href="/" className="mr-lg-5">
-              <h2 className="text-white" id="nav-title">
+            <NavbarBrand href="/" className="mr-lg-5" >
+              <h2 className="text-white" id="nav-title" style={{"fontSize": "1.5rem"}}>
                 {greetings.name}
               </h2>
             </NavbarBrand>
@@ -38,7 +38,7 @@ const Navigation = () => {
               <div className="navbar-collapse-header">
                 <Row>
                   <Col className="collapse-brand" xs="6">
-                    <h3 className="text-black" id="nav-title">
+                    <h3 className="text-black" id="nav-title" >
                       {greetings.name}
                     </h3>
                   </Col>

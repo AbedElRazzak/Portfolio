@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade";
 const Education = () => {
   return (
     educationInfo && (
-      <Fade bottom duration={2000}>
+      <Fade bottom duration={500}>
         <section className="section pb-0 bg-gradient-info my-5">
           <Container>
             <div className="d-flex px-3">

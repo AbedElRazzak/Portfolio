@@ -22708,4 +22708,11 @@ td.rdtYear:hover {
 	width: 1%;
 }
 
+@media(max-width: 560px) {
+	#nav-title {
+		font-size: 1rem;
+	}
+}
+
+
 /*# sourceMappingURL=argon-design-system-react.css.map */
