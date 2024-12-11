@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade";
 const Projects = () => {
   return (
     projects && (
-      <Fade bottom duration={500}>
+      // <Fade bottom duration={500}>
         <section className="section section-lg">
           <Container>
             <div className="d-flex p-4">
@@ -27,7 +27,7 @@ const Projects = () => {
             </Row>
           </Container>
         </section>
-      </Fade>
+      // </Fade>
     )
   );
 };

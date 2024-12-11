@@ -228,8 +228,8 @@ export const seoData: SEODataType = {
   title: "Abed El Razzak Portfolio",
   description: greetings.description,
   author: "Abed El Razzak Chreim",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  image: "https://avatars.githubusercontent.com/u/98018982?v=4",
+  url: "https://portfolio-rouge-seven-26.vercel.app/",
   keywords: [
     "Abed El Razzak",
     "Abed El Razzak Chreim",
