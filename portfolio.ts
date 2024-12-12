@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Abed El Razzak Chreim",
   title: "Hi 👋, I'm Abed El Razzak",
   description:
-    "I am a Software Developer with a background major in Mechatronics and hands-on industrial experience through a four-month internship at Sibline Cement Plant, where I achieved an excellent grade. I also am a Full Stack Web Developer where I gained work experience at Way2Go Digital and Freelancing, in which I created in total 10 projects, including informative, e-commerce websites and payment gateway integrations for platforms such as Blom Bank Cybersource and Areeba. My passions include drawing, physics, and meeting new people.",
+    "I am a Software Developer with a major in Mechatronics and hands-on industrial experience in the Automation & Reliability Department at Sibline Cement Plant, where I got the grade excellent. I also gained one month of internship experience and five months of professional work at Way2Go Digital, contributing to four key projects. I also am a Full Stack Web Developer where I gained work experience at Way2Go Digital and Freelancing, in which I created in total 10 projects, including informative, e-commerce websites and payment gateway integrations for platforms such as Blom Bank Cybersource and Areeba. My passions include drawing, physics, and meeting new people.",
   resumeLink: "https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/refs/heads/main/CV%20-%20AbedElRazzakChreim.pdf",
 };
 
