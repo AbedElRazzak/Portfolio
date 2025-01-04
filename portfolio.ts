@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Abed El Razzak Chreim",
   title: "Hi 👋, I'm Abed El Razzak",
   description:
-    "I am a Software Developer with a major in Mechatronics and hands-on industrial experience in the Automation & Reliability Department at Sibline Cement Plant, where I got the grade excellent. I also gained one month of internship experience and five months of professional work at Way2Go Digital, contributing to four key projects. As a self-taught Web Developer, I’ve completed six freelancing projects, including e-commerce and business websites, and payment gateway integrations with Blom Bank Cybersource and Areeba. Outside of work, I enjoy drawing, exploring physics, and connecting with new people.",
+    "I am a Software Developer with a major in Mechatronics and hands-on industrial experience in the Automation & Reliability Department at Sibline Cement Plant, where I got the grade excellent. I also gained one month of internship experience and five months of professional work at Way2Go Digital, contributing to four key projects. As a self-taught Web Developer, I’ve completed seven freelancing projects, including e-commerce and business websites, and payment gateway integrations with Blom Bank Cybersource, Credit Bank and Areeba. Outside of work, I enjoy drawing, exploring physics, and connecting with new people.",
   resumeLink: "https://raw.githubusercontent.com/AbedElRazzak/portfolioCDN/refs/heads/main/CV%20-%20AbedElRazzakChreim.pdf",
 };
 
@@ -145,7 +145,7 @@ export const experience: ExperienceType[] = [
     company: "Freelancing",
     companyLogo: "/img/icons/common/freelance.png",
     date: "Dec 2023 - Present",
-    desc: "As a freelancer, completed six diverse projects using WordPress, JavaScript, PHP, and CSS, including informative and e-commerce websites. Developed RESTful APIs for payment gateways like Blom Bank Cybersource and Areeba Gateway.",
+    desc: "As a freelancer, completed seven diverse projects using WordPress, JavaScript, PHP, and CSS, including informative and e-commerce websites. Developed RESTful APIs for payment gateways like Blom Bank Cybersource, Credit Bank and Areeba Gateway.",
   },
 ];
 
@@ -196,9 +196,14 @@ export const projects: ProjectType[] = [
     link: "https://vittoonline.com/",
   },
   {
-    name: "Hafnutrition Ecommerce",
+    name: "Hafnutrition - Ecommerce",
     desc: "This website is an ecommerce website that displays their products.",
     link: "https://hafnutrition.com/",
+  },
+  {
+    name: "Adopt a Cedar - Credit Bank Netcommerce Gateway",
+    desc: "This website is an ecommerce website that displays their product with a payment gateway integrated.",
+    link: "https://www.adoptacedar.org/",
   },
 ];
 
