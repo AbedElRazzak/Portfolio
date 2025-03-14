@@ -22715,4 +22715,27 @@ td.rdtYear:hover {
 }
 
 
+#logo {
+	width: 100%; /* Or whatever your default width is */
+  }
+
+#logo-holder {
+	flex-direction: column;
+	gap: 4rem;
+}
+  
+  /* Medium screens (md) */
+  @media (min-width: 768px) {
+	
+	#logo-holder {
+		flex-direction: row;
+	}
+  }
+  
+  /* Large screens (lg) */
+  @media (min-width: 1024px) {
+	
+  }
+
+
 /*# sourceMappingURL=argon-design-system-react.css.map */
