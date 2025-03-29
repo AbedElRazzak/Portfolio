@@ -4,14 +4,14 @@ import { Card, CardBody, CardTitle, CardSubtitle, CardText, Col } from "reactstr
 
 const showcaseData = [
   {
-    image: "img/assets/logo.png",
-    title: "Senior Project",
-    text: "Featuring the Mechatronic System for Chess Play 👋♟️"
-  },
-  {
     image: "img/assets/1.png",
-    title: "Chess Master",
-    text: "The system integrates Ai (camera vision), robotics, and Stockfish Chess engine computations to create an unbeatable chess opponent. 🤖"
+    title: "Senior Project",
+    text: (
+      <p>
+        Featuring the Mechatronic System for Chess Play 👋♟️<br /> <br />
+        This system integrates AI (computer vision), robotics, and the Stockfish Chess engine to create an unbeatable chess opponent. 🤖
+      </p>
+    )
   },
   {
     image: "img/assets/2.png",
@@ -42,7 +42,7 @@ const SeniorProject = () => {
       {showcaseData.map((item, index) => (
         <Row
           key={index}
-          className={`align-items-center my-7 ${index % 2 === 0 ? "flex-row" : "flex-row-reverse"}`}
+          className={`align-items-center my-7 ${index % 2 === 0 ? "flex-row-reverse" : "flex-row"}`}
         >
           <Col lg={7} className="d-flex justify-content-center">
             <img
@@ -56,8 +56,8 @@ const SeniorProject = () => {
           <Col lg={5} >
             <Card className="p-4 " style={{border: "none"}}>
               <CardBody>
-                <h2 className="text-3xl font-bold mb-3">{item.title}</h2>
-                <p className="text-lg text-gray-600">{item.text}</p>
+                <h2 id={`title-${index}`} className="text-3xl font-bold mb-3">{item.title}</h2>
+                <p id={`description-${index}`} className="text-lg text-gray-600">{item.text}</p>
               </CardBody>
             </Card>
           </Col>

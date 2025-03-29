@@ -22723,6 +22723,11 @@ td.rdtYear:hover {
 	flex-direction: column;
 	gap: 4rem;
 }
+
+#title-project {
+	color: #44D9E6;
+	font: bold;
+}
   
   /* Medium screens (md) */
   @media (min-width: 768px) {
