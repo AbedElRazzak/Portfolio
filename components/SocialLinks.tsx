@@ -47,6 +47,21 @@ const SocialLinks = () => {
           </span>
         </Button>
       )}
+      {socialLinks.ABC && (
+        <Button
+          className="btn-icon-only rounded-circle ml-1"
+          color="white"
+          href={socialLinks.ABC}
+          target="_blank"
+          rel="noopener"
+          aria-label="Instagram"
+        >
+          <span className="btn-inner--icon">
+            {/* <i className="fa fa-instagram" /> */}
+            <img src="/img/assets/abc-logo.png" style={{"height": "25px", "width": "25px"}}></img>
+          </span>
+        </Button>
+      )}
       {socialLinks.instagram && (
         <Button
           className="btn-icon-only rounded-circle ml-1"

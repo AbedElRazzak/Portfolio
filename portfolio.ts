@@ -29,6 +29,7 @@ export const socialLinks: SocialLinksType = {
   email: "mailto:chreimabedelrazzak@gmail.com",
   linkedin: "https://www.linkedin.com/in/abed-el-razzak-chreim-b5a33a1a3/",
   github: "https://github.com/AbedElRazzak",
+  ABC: "https://abc-development.vercel.app/"
   // instagram: "https://www.instagram.com/__hanzla100",
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',
@@ -150,6 +151,11 @@ export const experience: ExperienceType[] = [
 ];
 
 export const projects: ProjectType[] = [
+  {
+    name: "ABC Development ",
+    desc: "This website is my freelancing business site, it showcases my portfolio.",
+    link: "https://abc-development.vercel.app/",
+  },
   {
     name: "Vresso Casa - Ecommerce ",
     desc: "This website is an ecommerce website that displays their products with a payment gateway integrated.",
