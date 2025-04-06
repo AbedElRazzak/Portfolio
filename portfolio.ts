@@ -144,7 +144,7 @@ export const experience: ExperienceType[] = [
   {
     role: "Full Stack Developer",
     company: "Freelancing",
-    companyLogo: "/img/icons/common/freelance.png",
+    companyLogo: "/img/icons/common/abc-logo-hd.webp",
     date: "Dec 2023 - Present",
     desc: "As a freelancer, completed seven diverse projects using WordPress, JavaScript, PHP, and CSS, including informative and e-commerce websites. Developed RESTful APIs for payment gateways like Blom Bank Cybersource, Credit Bank and Areeba Gateway.",
   },
